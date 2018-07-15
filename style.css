@@ -1,0 +1,261 @@
+/*
+ Theme Name:   Algarve Yogaspot
+ Theme URI:    
+ Description:  
+ Author:       
+ Author URI:   
+ Template:     hestia
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         
+ Text Domain:  hestia-child
+*/
+
+
+
+
+.navbar .navbar-brand img {
+    max-height: 75px;
+}
+
+@media (max-width: 768px) {
+	.navbar .navbar-brand img {
+    	max-height: 50px;
+    	padding-left: 20px;
+	}
+}
+
+/*.navbar-default {
+    background-color: #f8f8f8;
+    border-color: transparent;
+}*/
+
+.navbar .navbar-brand, .navbar .navbar-brand:hover {
+    padding: 0;
+    position: relative;
+    color: inherit;
+    line-height: 30px;
+    height: auto;
+}
+
+
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus  {
+    color: #ffffff;
+}
+
+.navbar .navbar-nav > li > a, .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 3px;
+    color: inherit;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.page-header {
+    overflow: hidden;
+    /*height: 90vh;*/
+    max-height: 400px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-position: center center;
+    background-size: cover;
+}
+
+.footer-menu{
+    display: none;
+}
+
+.page-header .container .hestia-title, .page-header .container .title {
+    margin: -1px 0 20px;
+}
+
+.header-filter::before {
+    /* background-color: rgba(0,0,0,.5); */
+    background-color: transparent;
+}
+
+.header-filter {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background-position: center center;
+    background-size: cover;
+}
+
+.navbar-default {
+    background-color: #ffffff;
+    border-color: transparent;
+}
+
+.hestia-title{
+	display: none;
+}
+
+
+.page-header.header-small {
+    min-height: 350px;
+    position: relative;
+    height: auto;
+}
+
+@media (min-width: 768px) {
+	.desktop{
+		display: none;
+	}
+	
+	.navbar>.container .navbar-brand {
+    margin-left: 0;
+    display: none;
+}
+}
+
+.hestia_right .header-sidebar-wrapper {
+    float: right;
+    display: table-cell;
+    width: 20%;
+    vertical-align: middle;
+}
+
+.hestia_right .header-sidebar-wrapper {
+	display: none;
+}
+
+@media (min-width: 769px){
+.navbar.hestia_right .navbar-right {
+    float: left !important;
+    margin-top: 0;
+}
+
+.hestia_right .header-sidebar-wrapper {
+    float: right;
+    display: table-cell;
+    width: 20%;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+
+.header-widgets-wrapper ul li a, .header-widgets-wrapper ul li a: hover, .header-widgets-wrapper ul li a: focus {
+    padding: 10px 20px;
+    text-transform: inherit;
+    color: #FFFFFF !important;
+    background: #e3801d;
+}
+}
+
+@media (min-width: 769px){
+.navbar:not(.full-screen-menu).navbar-scroll-point.hestia_right .navbar-header, .navbar:not(.full-screen-menu).navbar-scroll-point.hestia_right .header-sidebar-wrapper {
+    display: table-cell !important;
+}
+}
+
+a:not(.btn):hover {
+	opacity: 1;
+}
+
+@media (min-width: 769px){
+.header-widgets-wrapper ul li a, .header-widgets-wrapper ul li a:hover, .header-widgets-wrapper ul li a:focus {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: #fff !important;
+    background: #e3801d;
+}
+}
+
+@media (max-width: 768px){
+	.carousel .page-header .row {
+		flex-direction: column;
+		justify-content: center;
+		margin-top: -100px;
+		text-align: center;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pf-checkbox-label span {
+    margin-left: 0px !important;
+    line-height: 15px;
+    text-align: justify;
+}
+
+#pirate-forms-contact-checkbox {
+    height: 25px;
+}
+.header-filter {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background-position: center center;
+    background-size: cover;
+    height: 350px;
+}
+
+.carousel .page-header {
+      display: inline;
+    z-index: -2;
+}
+
+body{
+    background-color: #FFFFFF;
+}
+
+#nav_menu-6{
+    text-align: center;
+}
+
+.footer-big #nav_menu-6 ul li a {
+    display: inline-block;
+    position: relative;
+    padding: 5px 0;
+    border-radius: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+        font-weight: 100;
+}
+.page-header.header-small {
+    min-height: 400px;
+    position: relative;
+    height: auto;
+}
+.pirate-forms-contact-widget h5{
+    font-size: 18px;
+    color: #e3801d;
+    font-weight: bold;
+    /*text-transform: uppercase;*/
+    text-align: center;
+}
+
+/*.navbar>.container .navbar-brand {
+    margin-left: 0;
+    display: none;
+}*/
+
+.copyright.pull-right{float: none !important;}
