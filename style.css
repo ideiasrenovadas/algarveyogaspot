@@ -78,17 +78,6 @@
     background-color: transparent;
 }
 
-.header-filter {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    background-position: center center;
-    background-size: cover;
-}
-
 .navbar-default {
     background-color: #ffffff;
     border-color: transparent;
@@ -253,9 +242,6 @@ body{
     text-align: center;
 }
 
-/*.navbar>.container .navbar-brand {
-    margin-left: 0;
-    display: none;
-}*/
+a, a:hover{color: #e3801d;}
 
 .copyright.pull-right{float: none !important;}
